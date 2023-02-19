@@ -1,4 +1,5 @@
-import './App.css';
+
+import {Navbar} from "./components/navbar"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -8,6 +9,7 @@ function App() {
     {""}
 
     <Router>
+      <Navbar />
       <Routes>
         <Route path="/"/>
         <Route path="/cart"/>
