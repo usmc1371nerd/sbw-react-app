@@ -1,12 +1,14 @@
+
 .navbar {
-    background-color: green;
-    height: 75px;
+   
+    height: 500px;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
 }
 
 .links {
+
     display: flex;
     align-items: center;
     justify-content: end;
